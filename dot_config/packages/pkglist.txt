@@ -16,7 +16,6 @@ bun
 chaotic-keyring
 chaotic-mirrorlist
 chezmoi
-cliphist
 cmake
 cpio
 discord
