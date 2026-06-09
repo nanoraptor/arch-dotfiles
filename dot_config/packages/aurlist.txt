@@ -1,5 +1,3 @@
-accounts-qml-module
-accounts-qml-module-debug
 antigravity
 arduino-ide-bin
 arttime-git
@@ -8,14 +6,10 @@ jetbrains-toolbox
 libfprint-2-tod1-goodix
 libfprint-tod
 nautilus-backspace
-python-unoserver
 quickshell-git
 sklauncher-bin
-snapd
 stirling-pdf-bin
-ticktick-debug
 tomato.c-git
 wvkbd-git
 xremap-hypr-bin
-xremap-hypr-bin-debug
 yt-x-git
