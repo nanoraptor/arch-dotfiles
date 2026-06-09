@@ -49,6 +49,7 @@ alias leet='nvim -c Leet'
 alias archbtw=fastfetch
 alias iusearchbtw=fastfetch
 alias btw=fastfetch
+alias backup="bash /home/binaryraptor/.local/bin/backup.sh"
 alias kee="cat /home/binaryraptor/Documents/Private/Other\ files/config.txt | wl-copy"
 # alias nvim='nv-focus'
 
