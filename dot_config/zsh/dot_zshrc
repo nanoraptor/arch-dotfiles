@@ -1,0 +1,78 @@
+# Add user configurations here
+# For HyDE to not touch your beloved configurations,
+# we added a config file for you to customize HyDE before loading zshrc
+# Edit $ZDOTDIR/.user.zsh to customize HyDE before loading zshrc
+
+#  Plugins 
+# oh-my-zsh plugins are loaded  in $ZDOTDIR/.user.zsh file, see the file for more information
+
+#  Aliases 
+# Override aliases here in '$ZDOTDIR/.zshrc' (already set in .zshenv)
+
+# # Helpful aliases
+# alias c='clear'                                                        # clear terminal
+alias un='sudo pacman -Rns'                                             # uninstall package
+alias up='sudo pacman -Syu'                                             # update system/package/aur
+alias pl='pacman -Qs'                                              # list installed package
+alias pa='sudo pacman -Ss'                                              # list available package
+alias pc='sudo pacman -Sc'                                              # remove unused cache
+alias po='pacman -Qtdq | pacman -Rns -'                        # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
+# alias vc='code'                                                        # gui code editor
+alias fastfetch='fastfetch --logo-type kitty'
+
+# # Directory navigation shortcuts
+# alias ..='cd ..'
+# alias ...='cd ../..'
+# alias .3='cd ../../..'
+# alias .4='cd ../../../..'
+# alias .5='cd ../../../../..'
+
+# # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
+# alias mkdir='mkdir -p'
+
+#  This is your file 
+# Add your configurations here
+# alias vim=nvim
+alias cat=bat
+# alias copilot='gh copilot -i ""'
+# eza aliases
+alias ls='eza --color=always --group-directories-first --icons=always' # Preferred 'ls' implementation
+alias la='eza -a --color=always --group-directories-first --icons=always'  # All files and dirs
+alias ll='eza -l --color=always --group-directories-first --icons=always'  # Long format
+alias lt='eza -aT --color=always --group-directories-first --icons=always' # Tree listing
+alias ld='eza -lhD --icons=auto'                                       # long list dirs
+alias l.='eza -ald --color=always --group-directories-first --icons=always .*' # Show only dotfiles
+alias l='eza -lh --icons=auto'                                         # long list
+# useless but useful aliases
+alias ft=fastfetch
+alias leet='nvim -c Leet'
+alias archbtw=fastfetch
+alias iusearchbtw=fastfetch
+alias btw=fastfetch
+alias kee="cat /home/binaryraptor/Documents/Private/Other\ files/config.txt | wl-copy"
+# alias nvim='nv-focus'
+
+# export EDITOR=nvim
+export EDITOR=nvim
+export VISUAL=nvim
+export JAVA_HOME="/usr/lib/jvm/java-25-openjdk"
+export PATH="$JAVA_HOME/bin:$PATH"
+export PATH=$PATH:/var/lib/snapd/snap/bin
+
+function vi-yank-wl-copy {
+    zle vi-yank
+    echo -n "$CUTBUFFER" | wl-copy
+}
+zle -N vi-yank-wl-copy
+bindkey -M vicmd 'y' vi-yank-wl-copy
+unset -f command_not_found_handler # Uncomment to prevent searching for commands not found in package manager
+# Disable the escape-based run-help widgets
+bindkey -v
+# bindkey -r '\e[h'
+# bindkey -r '\eh'
+# bindkey -r '\e'
+# unalias run-help 2>/dev/null
+
+unsetopt TRANSIENT_RPROMPT
+RPROMPT=''
+export PATH=$PATH:/home/binaryraptor/.spicetify
