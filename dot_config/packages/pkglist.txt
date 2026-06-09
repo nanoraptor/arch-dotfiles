@@ -186,6 +186,7 @@ wget
 wireguard-tools
 wireplumber
 wl-clip-persist
+wl-clipboard
 wlogout
 woff2-font-awesome
 wtype
