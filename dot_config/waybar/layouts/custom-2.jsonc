@@ -68,6 +68,7 @@
       // "custom/wbar", //
       // "custom/cliphist",
       // "custom/dunst",
+      "custom/clipboard",
       "custom/swaync",
       // "custom/hyde-menu",
       "custom/power"
