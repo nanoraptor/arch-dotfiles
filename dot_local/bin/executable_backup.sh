@@ -6,6 +6,7 @@ pacman -Qqem >"$AUR_LIST"
 pacman -Qqen >"$PKG_LIST"
 echo "Package lists have been backed up"
 
+chezmoi status
 chezmoi re-add
 TARGET_DIR="$HOME/.local/share/chezmoi"
 cd "$TARGET_DIR" || {
