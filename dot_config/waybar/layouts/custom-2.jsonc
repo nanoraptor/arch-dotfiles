@@ -67,8 +67,8 @@
       // "custom/theme", //
       // "custom/wbar", //
       // "custom/cliphist",
+      // "custom/dunst",
       "custom/swaync",
-      // "custom/swaync",
       // "custom/hyde-menu",
       "custom/power"
     ]
