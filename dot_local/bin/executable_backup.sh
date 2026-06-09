@@ -3,8 +3,8 @@
 # --- Configuration & Colors ---
 AUR_LIST="$HOME/.config/packages/aurlist.txt"
 PKG_LIST="$HOME/.config/packages/pkglist.txt"
+FLATPAK_LIST="$HOME/.config/packages/flatpaklist.txt"
 TARGET_DIR="$HOME/.local/share/chezmoi"
-
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
@@ -32,6 +32,7 @@ mkdir -p "$HOME/.config/packages/"
 log "Backing up package lists..."
 pacman -Qqem >"$AUR_LIST"
 pacman -Qqen >"$PKG_LIST"
+flatpak list --app --columns=application >"$FLATPAK_LIST"
 success "Package lists saved to ${BOLD}~/.config/packages/"
 
 log "Running chezmoi status..."
