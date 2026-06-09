@@ -45,7 +45,7 @@ cd "$TARGET_DIR" || error "Directory '$TARGET_DIR' not found."
 
 log "Committing changes to git..."
 git add .
-MSG="Auto-commit: $(date +'%Y-%m-%d %H:%M:%S')"
+MSG="Backup: $(date +'%Y-%m-%d %H:%M:%S')"
 git commit -m "$MSG" >/dev/null
 
 log "Pushing to remote..."
