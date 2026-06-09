@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=HackerRank
+Exec=google-chrome-stable --profile-directory="Default" --app="https://www.hackerrank.com/dashboard"
+Icon=/home/binaryraptor/.local/share/icons/webapps/hackerrank.png
+Terminal=false
+Categories=Network;WebBrowser;
+# created-by: Webapp Installer

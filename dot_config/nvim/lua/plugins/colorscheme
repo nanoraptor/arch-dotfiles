@@ -1,0 +1,40 @@
+return {
+  -- Add the Catppuccin plugin and ensure it loads first
+  {
+    "folke/tokyonight",
+    name = "moon",
+    priority = 1000, -- High priority to load early
+    config = function()
+      require("tokyonight").setup({
+        flavour = "moon", -- Set the theme flavour
+        integrations = {
+          alpha = true,
+          cmp = true,
+          telescope = true,
+        },
+      })
+    end,
+  },
+
+  -- Override LazyVim's default settings
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "tokyonight-moon",
+    },
+  },
+
+  -- Disable LazyVim's default tokyonight plugin
+  { "folke/tokyonight.nvim", enabled = false },
+
+  -- Fix the bufferline incompatibility for the catppuccin theme
+  {
+    "akinsho/bufferline.nvim",
+    opts = function(_, opts)
+      if vim.g.catppuccin_flavour and vim.g.catppuccin_flavour == "mocha" then
+        local bufferline_integration = require("catppuccin.groups.integrations.bufferline")
+        opts.highlights = bufferline_integration.get_theme()
+      end
+    end,
+  },
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Perplexity
+Exec=google-chrome-stable --profile-directory="Default" --app="https://www.perplexity.ai/"
+Icon=/home/binaryraptor/.local/share/icons/webapps/perplexity.png
+Terminal=false
+Categories=Network;WebBrowser;
+# created-by: Webapp Installer

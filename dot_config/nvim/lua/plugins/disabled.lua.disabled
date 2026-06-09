@@ -1,0 +1,4 @@
+return {
+  -- Disable bufferline.nvim which shows all buffers globally
+  { "akinsho/bufferline.nvim", enabled = false },
+}

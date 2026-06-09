@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Monkeytype
+Exec=google-chrome-stable --app="https://monkeytype.com/"
+Icon=/home/binaryraptor/.local/share/icons/webapps/monkeytype.png
+Terminal=false
+Categories=Network;WebBrowser;
+# created-by: Webapp Installer

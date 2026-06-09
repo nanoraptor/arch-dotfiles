@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Notion
+Exec=google-chrome-stable --app="https://www.notion.so/"
+Icon=/home/binaryraptor/.local/share/icons/webapps/notion.svg
+Terminal=false
+Categories=Network;WebBrowser;
+# created-by: Webapp Installer

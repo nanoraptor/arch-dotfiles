@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Stirling PDF
+Exec=stirling-launcher
+Icon=/home/binaryraptor/.local/share/icons/webapps/stirling-pdf.svg
+Terminal=false
+Type=Application

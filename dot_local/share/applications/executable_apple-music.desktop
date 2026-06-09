@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Apple Music
+Exec=google-chrome-stable --app="https://music.apple.com/in/home"
+Icon=/home/binaryraptor/.local/share/icons/webapps/apple-music.png
+Terminal=false
+Categories=Network;WebBrowser;
+# created-by: Webapp Installer

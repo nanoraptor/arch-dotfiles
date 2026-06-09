@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Webapp Manager
+Exec=kitty --class WebAppInstaller bash -e /home/binaryraptor/.local/bin/webapp_manager.sh
+Icon=/home/binaryraptor/.local/share/icons/custom/app-store.png
+Type=Application
+Terminal=false

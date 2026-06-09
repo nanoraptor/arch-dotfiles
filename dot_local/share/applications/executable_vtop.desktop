@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=VTOP
+Exec=google-chrome-stable --profile-directory="Profile 1" --app="https://vtop.vitap.ac.in/vtop"
+Icon=/home/binaryraptor/.local/share/icons/webapps/vtop.png
+Terminal=false
+Categories=Network;WebBrowser;
+# created-by: Webapp Installer

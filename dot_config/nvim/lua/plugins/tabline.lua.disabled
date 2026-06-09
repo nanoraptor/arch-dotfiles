@@ -1,0 +1,51 @@
+-- File: ~/.config/nvim/lua/plugins/tabline_custom.lua
+
+return {
+  -- Override default options. This runs very early.
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      -- This function is assigned to the vim.opt.tabline option
+      -- It is executed every time the tabline needs to be redrawn
+      vim.opt.tabline = function()
+        -- 1. Identify all buffers currently visible in the active tabpage
+        local tab_buffers = {}
+        for _, window in ipairs(vim.api.nvim_tabpage_list_wins(0)) do
+          local bufnr = vim.api.nvim_win_get_buf(window)
+          tab_buffers[bufnr] = true
+        end
+
+        local result = ""
+
+        -- 2. Loop through all buffers and append only those in tab_buffers
+        for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do
+          if tab_buffers[bufnr] and vim.api.nvim_buf_get_option(bufnr, "buflisted") then
+            -- Get buffer info
+            local name = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(bufnr), ":t")
+            local status = vim.api.nvim_get_buf_option(bufnr, "modified") and " [+]$" or " "
+            local is_current = bufnr == vim.api.nvim_get_current_buf() and "SELECTED" or "TAB"
+            
+            -- Format the tab/buffer entry
+            result = result .. string.format("%%#TabLine%s# %s%s ", is_current, name, status)
+          end
+        end
+
+        -- 3. Add Tabpage Labels (Right-aligned)
+        result = result .. "%=" 
+
+        for i, tabpage in ipairs(vim.api.nvim_list_tabpages()) do
+          local is_current_tab = i == vim.api.nvim_get_current_tabpage()
+          local tab_status = is_current_tab and "TabLineSel" or "TabLine"
+          
+          -- %T is for mouse clicks/navigation
+          result = result .. string.format("%%#%s#%%%dT %s ", tab_status, i, i)
+        end
+
+        -- 4. Fill the rest with TabLineFill
+        result = result .. "%#TabLineFill#"
+        
+        return result
+      end
+    end
+  }
+}

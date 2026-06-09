@@ -1,0 +1,40 @@
+@import url("file:///home/binaryraptor/.config/waybar/theme.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 11px;
+}
+
+.control-center {
+    background-color: @main-bg;
+    color: @main-fg;
+    border: 2px solid @wb-act-bg;
+    min-width: 350px;
+    border-radius: 11px;
+}
+
+.blank-window, .floating-notifications {
+    background-color: transparent;
+}
+
+.notification-row, .notification-background {
+    background-color: transparent;
+}
+
+
+.notification-row .notification-background .notification {
+    background-color: @main-bg;
+    color: @main-fg;
+    font-size: 12px;
+    border: 1px solid @wb-act-bg;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 8px;
+    box-shadow: none;
+}
+
+.widget-title {
+    color: @wb-act-fg;
+    font-size: 11px;
+    font-weight: bold;
+}

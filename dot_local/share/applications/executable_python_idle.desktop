@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type = Application
+Name = Python IDLE
+Exec = idle
+Icon = /home/binaryraptor/.local/share/icons/custom/python.png
+Terminal = false
+Categories = Python;Code editor; idle;
+
