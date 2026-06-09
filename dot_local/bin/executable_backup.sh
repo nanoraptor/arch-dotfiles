@@ -1,20 +1,56 @@
 #!/bin/bash
+
+# --- Configuration & Colors ---
 AUR_LIST="$HOME/.config/packages/aurlist.txt"
 PKG_LIST="$HOME/.config/packages/pkglist.txt"
-mkdir -p "$HOME/.config/packages/"
-pacman -Qqem >"$AUR_LIST"
-pacman -Qqen >"$PKG_LIST"
-echo "Package lists have been backed up"
-
-chezmoi status
-chezmoi re-add
 TARGET_DIR="$HOME/.local/share/chezmoi"
-cd "$TARGET_DIR" || {
-  echo "Error: Directory '$TARGET_DIR' not found."
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+BOLD='\033[1m'
+NC='\033[0m' # No Color
+
+# Helper for status messages
+log() {
+  echo -e "${BLUE}${BOLD}::${NC} $1"
+}
+
+success() {
+  echo -e "${GREEN}${BOLD}✔${NC} $1"
+}
+
+error() {
+  echo -e "${RED}${BOLD}✘${NC} $1"
   exit 1
 }
+
+# --- Execution ---
+
+mkdir -p "$HOME/.config/packages/"
+
+log "Backing up package lists..."
+pacman -Qqem >"$AUR_LIST"
+pacman -Qqen >"$PKG_LIST"
+success "Package lists saved to ${BOLD}~/.config/packages/"
+
+log "Running chezmoi status..."
+chezmoi status
+
+log "Updating chezmoi state..."
+chezmoi re-add
+
+cd "$TARGET_DIR" || error "Directory '$TARGET_DIR' not found."
+
+log "Committing changes to git..."
 git add .
 MSG="Auto-commit: $(date +'%Y-%m-%d %H:%M:%S')"
-git commit -m "$MSG"
-git push
-echo "dotfiles have been backed up and pushed to remote"
+git commit -m "$MSG" >/dev/null
+
+log "Pushing to remote..."
+git push >/dev/null 2>&1
+if [ $? -eq 0 ]; then
+  success "Dotfiles successfully pushed to remote!"
+else
+  error "Failed to push to remote. Check your internet connection."
+fi
