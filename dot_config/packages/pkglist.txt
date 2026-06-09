@@ -189,6 +189,7 @@ wireplumber
 wl-clip-persist
 wlogout
 woff2-font-awesome
+wtype
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
