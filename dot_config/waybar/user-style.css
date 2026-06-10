@@ -1,0 +1,13 @@
+@define-color main-fg #ffffff;
+#custom-clipboard {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* Delete the #custom-spotify container block completely */
+
+/* Only enforce the font on the label */
+#custom-spotify label {
+    font-family: "monospace";
+}
