@@ -3,10 +3,15 @@ STATE_FILE="/tmp/waybar_marquee_pos"
 WIDTH=30
 
 while true; do
+  status=$(playerctl status --player spotify 2>/dev/null || echo "Stopped")
   text=$(playerctl metadata --player spotify --format "{{artist}} - {{title}}" 2>/dev/null || echo "Not playing")
 
-  if [ ${#text} -le $WIDTH ]; then
-    echo "󰓇 $text"
+  if [ "$status" != "Playing" ] || [ ${#text} -le $WIDTH ]; then
+    if [ ${#text} -gt $WIDTH ]; then
+      echo "󰓇 ${text:0:$((WIDTH - 3))}..."
+    else
+      echo "󰓇 $text"
+    fi
     sleep 2
     continue
   fi

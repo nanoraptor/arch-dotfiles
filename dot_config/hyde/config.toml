@@ -19,3 +19,6 @@ icon_theme = "Tela-circle-grey"
 
 [hyprland-start]
 notifications = ''
+
+[wlogout] 
+style = 1
