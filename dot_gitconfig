@@ -1,0 +1,14 @@
+[user]
+	email = 168854832+nanoraptor@users.noreply.github.com
+	name = nanoraptor
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[trace2]
+	eventTarget = af_unix:stream:/home/binaryraptor/.git-ai/internal/daemon/trace2.sock
+	eventNesting = 10
