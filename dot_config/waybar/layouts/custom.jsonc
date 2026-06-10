@@ -24,7 +24,6 @@
       "custom/hyprsunset",
       "idle_inhibitor",
       "clock",
-      // "custom/uair",
       "privacy"
     ]
   },
@@ -66,8 +65,6 @@
       // "custom/wallchange", //
       // "custom/theme", //
       // "custom/wbar", //
-      // "custom/cliphist",
-      // "custom/dunst",
       "custom/clipboard",
       "custom/swaync",
       // "custom/hyde-menu",
