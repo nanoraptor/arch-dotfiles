@@ -115,7 +115,6 @@ playerctl
 plymouth
 polkit-gnome
 poppler-glib
-power-profiles-daemon
 python-graphviz
 python-joblib
 python-matplotlib
