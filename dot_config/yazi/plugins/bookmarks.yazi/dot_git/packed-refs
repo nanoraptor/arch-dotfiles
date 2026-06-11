@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+35da1073b76993c8a07a51d106afa2ead1f6d0e0 refs/remotes/origin/0.3.3
+e45dffc27a6579c3c2d505e2a95a5de62035ea73 refs/remotes/origin/custom_keybinding
+430592ba57b1a31a1f5d272a8ce864292863ef8b refs/remotes/origin/last_dir_mode
+9ef1254d8afe88aba21cd56a186f4485dd532ab8 refs/remotes/origin/main
+b892e89712d44038ef30fda785f03af30a34b264 refs/remotes/origin/yazi-0.2.5
+b892e89712d44038ef30fda785f03af30a34b264 refs/tags/0.2.5

@@ -1,6 +1,6 @@
 {
   "custom/clipboard": {
-    "format": "",
+    "format": " ",
     "on-click": "vicinae vicinae://launch/clipboard/history",
     "tooltip": true,
     "tooltip-format": "Clipboard"

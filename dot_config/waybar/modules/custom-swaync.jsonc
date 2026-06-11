@@ -1,6 +1,6 @@
 {
   "custom/swaync": {
-    "format": "{icon} {0}",
+    "format": "{icon}",
     "rotate": 0,
     "format-icons": {
       "notification": "<span foreground='red'><sup></sup></span>",

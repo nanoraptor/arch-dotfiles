@@ -1,0 +1,14 @@
+[[mgr.prepend_keymap]]
+on   = [ "M" ]
+run  = "plugin bookmarks save"
+desc = "Save bookmark"
+
+[[mgr.prepend_keymap]]
+on   = [ "'" ]
+run  = "plugin bookmarks jump"
+desc = "Jump to bookmark"
+
+[[mgr.prepend_keymap]]
+on   = [ "b", "d" ]
+run  = "plugin bookmarks delete"
+desc = "Delete a bookmark"

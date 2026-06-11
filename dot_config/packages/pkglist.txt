@@ -20,6 +20,9 @@ cmake
 cpio
 discord
 dnsmasq
+docker
+docker-buildx
+docker-compose
 dosfstools
 dpkg
 efibootmgr
@@ -168,6 +171,7 @@ ttf-jetbrains-mono-nerd
 ttf-ms-fonts
 tumbler
 udiskie
+ufw
 unzip
 uv
 uwsm

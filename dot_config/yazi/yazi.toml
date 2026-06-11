@@ -1,0 +1,16 @@
+[bookmarks]
+home = "~/"
+project = "/home/binaryraptor/Documents/VIT-AP/Sem 2/Chem/Project"
+config = "~/.config"
+pictures = "~/Pictures"
+downloads = "~/Downloads"
+
+[plugin]
+prepend_previewers = [
+  { name = "*.docx", run = "office" },
+  { name = "*.xlsx", run = "office" },
+  { name = "*.pptx", run = "office" },
+  { name = "*.odt", run = "office" },
+  { name = "*.ods", run = "office" },
+  { name = "*.odp", run = "office" }
+]
