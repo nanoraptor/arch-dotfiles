@@ -1,6 +1,6 @@
 [user]
 	email = 168854832+nanoraptor@users.noreply.github.com
-	name = nanoraptor
+	name = Rahul M
 	signingkey = 1862072046D295CD8D405A4B7226F3D807F4BEA7
 [credential "https://github.com"]
 	helper = 
@@ -13,3 +13,10 @@
 [trace2]
 	eventTarget = af_unix:stream:/home/binaryraptor/.git-ai/internal/daemon/trace2.sock
 	eventNesting = 10
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

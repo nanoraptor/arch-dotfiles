@@ -1,0 +1,40 @@
+/* 1. Strip the inset shadows causing the inner rectangular artifacts */
+window row.activatable,
+window row.activatable:hover,
+window row.activatable:focus,
+window row.activatable:active,
+window row.activatable:selected,
+window .navigation-sidebar > row,
+window .navigation-sidebar > row:hover,
+window .navigation-sidebar > row:focus,
+window .navigation-sidebar > row:selected,
+window gridview > child,
+window gridview > child:hover,
+window gridview > child:focus,
+window gridview > child:selected,
+window listview > row,
+window listview > row:hover,
+window listview > row:focus,
+window listview > row:selected {
+    box-shadow: none;
+    outline-style: none;
+    border-style: none;
+}
+
+/* 2. Force compact pane sizing (Keep this from the first step) */
+headerbar, .titlebar {
+    padding: 0 6px;
+    min-height: 24px;
+}
+
+button, entry {
+    padding: 2px 6px;
+    min-height: 20px;
+}
+/* Add horizontal gap to sidebar selection/hover */
+window .navigation-sidebar > row {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+
