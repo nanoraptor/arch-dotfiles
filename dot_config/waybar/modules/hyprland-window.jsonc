@@ -1,0 +1,20 @@
+{
+  "hyprland/window": {
+    "format": "{title}",
+    "separate-outputs": true,
+    "max-length": 50,
+    "rewrite": {
+      "class<firefox> title<.*YouTube.*>": "󰗃  $1",
+      "class<firefox>": "󰈹  $1",
+      "class<google-chrome>": "  $1",
+      "class<Code>": "󰨞  $1",
+      "class<code-oss>": "󰨞  $1",
+      "class<org.kde.dolphin>": "󰉋  $1",
+      "class<Spotify>": "  $1",
+      "class<discord>": "  $1",
+      "class<Steam>": "󰓓  $1",
+      "class<github>": "  $1",
+      "^$": ""
+    }
+  }
+}

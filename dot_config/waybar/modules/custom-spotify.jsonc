@@ -1,0 +1,10 @@
+{
+  "custom/spotify": {
+    "exec": "$HOME/.local/bin/marquee.sh",
+    "format": "{}",
+    "return-type": "text",
+    "align": 0, // 0 = Left, 0.5 = Center, 1 = Right
+    "tooltip": true,
+    "on-click": "playerctl play-pause --player spotify"
+  }
+}

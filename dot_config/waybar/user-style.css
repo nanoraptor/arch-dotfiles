@@ -11,3 +11,25 @@
 #custom-spotify label {
     font-family: "monospace";
 }
+#window {
+    padding: 0 8px;
+}
+#window.empty label {
+    font-size: 25px;
+}
+/* Add padding to the privacy module container */
+#privacy {
+    padding: 0 5px; /* Adjust 10px to your preference */
+}
+#custom-power {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Add margin if you want to push other elements away */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* If you need padding for the individual icons inside the privacy module */
+/* #privacy > box { */
+/*     padding: 0 4px; */
+/* } */
