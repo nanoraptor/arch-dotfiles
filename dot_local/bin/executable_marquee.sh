@@ -6,11 +6,18 @@ while true; do
   status=$(playerctl status --player spotify 2>/dev/null || echo "Stopped")
   text=$(playerctl metadata --player spotify --format "{{artist}} - {{title}}" 2>/dev/null || echo "Not playing")
 
+  # Add Play icon suffix only if paused/stopped. Adjusted size via Pango markup.
+  # Change '150%' to 'large', 'x-large', or a specific pixel size (e.g., '14pt') if preferred.
+  suffix=""
+  if [ "$status" != "Playing" ] && [ "$text" != "Not playing" ]; then
+    suffix=" <span size='120%'>󰐊</span>"
+  fi
+
   if [ "$status" != "Playing" ] || [ ${#text} -le $WIDTH ]; then
     if [ ${#text} -gt $WIDTH ]; then
-      echo "󰓇 ${text:0:$((WIDTH - 3))}..."
+      echo "󰓇 ${text:0:$((WIDTH - 3))}...${suffix}"
     else
-      echo "󰓇 $text"
+      echo "󰓇 ${text}${suffix}"
     fi
     sleep 2
     continue
