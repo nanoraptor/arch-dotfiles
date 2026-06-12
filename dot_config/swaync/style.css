@@ -19,8 +19,16 @@
 
 .notification-row, .notification-background {
     background-color: transparent;
+    position: relative; /* Targets the parent wrapper for absolute coords */
 }
 
+/* Clear out the old margin code and replace it with absolute mapping */
+.notification-background .close-button {
+    position: absolute;
+    top: 18px;          /* Tweaking this number lowers or raises the cross */
+    right: 14px;        /* Moves it away from the right edge */
+    margin: 0;          /* Prevents default margins from breaking layout */
+}
 
 .notification-row .notification-background .notification {
     background-color: @main-bg;
