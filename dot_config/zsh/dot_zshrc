@@ -78,3 +78,4 @@ bindkey -v
 unsetopt TRANSIENT_RPROMPT
 RPROMPT=''
 export PATH=$PATH:/home/binaryraptor/.spicetify
+export PATH="$HOME/.npm-global/bin:$PATH"

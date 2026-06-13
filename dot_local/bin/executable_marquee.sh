@@ -10,7 +10,7 @@ while true; do
   # Change '150%' to 'large', 'x-large', or a specific pixel size (e.g., '14pt') if preferred.
   suffix=""
   if [ "$status" != "Playing" ] && [ "$text" != "Not playing" ]; then
-    suffix=" <span size='120%'>󰐊</span>"
+    suffix=" <span size='110%'>󰐊</span>"
   fi
 
   if [ "$status" != "Playing" ] || [ ${#text} -le $WIDTH ]; then
