@@ -5,7 +5,7 @@
 
 [wallpaper] 
 custom_paths = [
-  # "$HOME/Pictures/Wallpapers"
+  "$HOME/Pictures/Wallpapers"
 ] #List of Paths to search for wallpapers
 
 [hyprland]
