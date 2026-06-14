@@ -1,5 +1,6 @@
 google-chrome
 hyprquery-git
+jetbrains-toolbox
 libfprint-2-tod1-goodix
 libfprint-tod
 libinput-gestures

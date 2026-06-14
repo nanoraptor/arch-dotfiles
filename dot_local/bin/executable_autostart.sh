@@ -14,16 +14,4 @@ google-chrome-stable --profile-directory="Default" --app="https://gemini.google.
 vicinae server &
 
 sed -i '$ s/^#\s*//' ~/.config/hypr/userprefs.conf
-zapzap --hideStart &
-for i in {1..20}; do
-  if hyprctl clients -j | grep -q "com.rtosta.zapzap"; then
-    hyprctl dispatch closewindow class:com.rtosta.zapzap
-
-    # Comment last line back out
-    sed -i '$ s/^\([^#]\)/# \1/' ~/.config/hypr/userprefs.conf
-    break
-  fi
-  sleep 0.25
-done
-
 keepassxc &
