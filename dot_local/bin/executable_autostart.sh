@@ -1,20 +1,32 @@
 #!/usr/bin/env bash
 
-# Wait until waybar is running
-while ! pgrep -x waybar >/dev/null; do
-  sleep 1
-done
+# Wait for Waybar process
+while ! pgrep -x waybar >/dev/null; do sleep 1; done
 
-# Optional: Add a 1-2 second buffer to ensure the system tray is ready to catch icons
-sleep 2
+# Critical buffer: Waybar takes an additional 2-3 seconds to expose the system tray over DBus
+sleep 3
 
-# Execute special workspace applications via hyprctl
-hyprctl dispatch exec "[workspace special:spotify silent] spotify"
-hyprctl dispatch exec "[workspace special:discord silent] discord"
-hyprctl dispatch exec "[workspace special:mail silent] thunderbird"
-hyprctl dispatch exec "[workspace special:AI silent] google-chrome-stable --profile-directory='Default' --app='https://gemini.google.com/app'"
+# Applications (Trapped by windowrulev2)
+spotify &
+discord --start-minimized &
+thunderbird &
+google-chrome-stable --profile-directory="Default" --app="https://gemini.google.com/app" &
 
-# Execute tray-dependent applications
-zapzap --hideStart &
+# Tray Utilities
 keepassxc &
 vicinae server &
+
+sed -i '$ s/^#\s*//' ~/.config/hypr/userprefs.conf
+
+zapzap --hideStart &
+
+for i in {1..20}; do
+  if hyprctl clients -j | grep -q "com.rtosta.zapzap"; then
+    hyprctl dispatch closewindow class:com.rtosta.zapzap
+
+    # Comment last line back out
+    sed -i '$ s/^\([^#]\)/# \1/' ~/.config/hypr/userprefs.conf
+    break
+  fi
+  sleep 0.25
+done
