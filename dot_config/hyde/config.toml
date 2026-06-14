@@ -5,7 +5,7 @@
 
 [wallpaper] 
 custom_paths = [
-  "$HOME/Pictures/Wallpapers"
+  # "$HOME/Pictures/Wallpapers"
 ] #List of Paths to search for wallpapers
 
 [hyprland]
@@ -19,6 +19,7 @@ icon_theme = "Tela-circle-grey"
 
 [hyprland-start]
 notifications = ''
+auth_dialogue = "/usr/lib/polkit-kde-authentication-agent-1"
 
 [wlogout] 
 style = 1

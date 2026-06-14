@@ -24,7 +24,7 @@
    },
    "theme": {
       "dark": {
-         "name": "matugen",
+         "name": "catppuccin-mocha",
          "icon_theme": "Tela circle grey"
       }
    },
