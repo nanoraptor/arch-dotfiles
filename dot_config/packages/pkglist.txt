@@ -79,6 +79,7 @@ maven
 meson
 mokutil
 nautilus
+nautilus-image-converter
 nautilus-share
 neovim
 network-manager-applet

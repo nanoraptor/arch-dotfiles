@@ -1,9 +1,12 @@
+arduino-ide-bin
 google-chrome
 hyprquery-git
 jetbrains-toolbox
 libfprint-2-tod1-goodix
 libfprint-tod
 libinput-gestures
+nautilus-admin-gtk4
+nautilus-open-any-terminal
 spotify
 superproductivity-bin
 vicinae-bin
