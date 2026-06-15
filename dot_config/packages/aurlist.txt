@@ -7,6 +7,7 @@ libfprint-tod
 libinput-gestures
 nautilus-admin-gtk4
 nautilus-open-any-terminal
+snappy-switcher
 spotify
 superproductivity-bin
 vicinae-bin

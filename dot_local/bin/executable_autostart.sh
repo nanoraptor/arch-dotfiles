@@ -13,5 +13,4 @@ thunderbird &
 google-chrome-stable --profile-directory="Default" --app="https://gemini.google.com/app" &
 vicinae server &
 
-sed -i '$ s/^#\s*//' ~/.config/hypr/userprefs.conf
 keepassxc &

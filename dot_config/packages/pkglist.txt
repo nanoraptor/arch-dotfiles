@@ -52,6 +52,7 @@ hyprland
 hyprlock
 hyprpicker
 hyprpolkitagent
+hyprshutdown
 hyprsunset
 imagemagick
 inotify-tools
