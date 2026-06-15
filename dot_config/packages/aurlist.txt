@@ -2,7 +2,9 @@ google-chrome
 hyprquery-git
 libfprint-2-tod1-goodix
 libfprint-tod
+libinput-gestures
 spotify
+superproductivity-bin
 vicinae-bin
 wlogout
 yay
