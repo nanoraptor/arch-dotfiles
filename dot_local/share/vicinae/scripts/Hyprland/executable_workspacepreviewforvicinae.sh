@@ -7,3 +7,4 @@
 # @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/workspace.png
 
 hyprctl dispatch scrolloverview:overview toggle
+echo "Workspace Preview"

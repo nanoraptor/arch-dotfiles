@@ -213,6 +213,12 @@
             ]
          },
          "entrypoints": {
+            "Arch.aur-installer.sh": {
+               "alias": "aur"
+            },
+            "Arch.pacman-installer.sh": {
+               "alias": "pacman"
+            },
             "Hyprland.workspacepreviewforvicinae.sh": {
                "alias": "ws"
             }
