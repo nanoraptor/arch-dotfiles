@@ -16,7 +16,7 @@
    "pop_to_root_on_close": true,
    "keybinding": "default",
    "font": {
-      "rendering": "qt",
+      "rendering": "native",
       "normal": {
          "family": "Inter Variable",
          "size": 9
@@ -86,7 +86,7 @@
       "@marcjulian/store.raycast.obsidian": {
          "preferences": {
             "configFileName": ".obsidian",
-            "vaultPath": "/home/binaryraptor/Documents/ObsidianVault"
+            "vaultPath": "/home/binaryraptor/Documents/Obsidian-Vault"
          },
          "entrypoints": {
             "searchNoteCommand": {
