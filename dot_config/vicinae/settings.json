@@ -137,9 +137,6 @@
             "blueman-manager": {
                "enabled": false
             },
-            "org.kde.kdeconnect.sms": {
-               "alias": "sms"
-            },
             "superproductivity": {
                "alias": "sp"
             }
