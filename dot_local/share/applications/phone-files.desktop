@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Phone Files
+Comment=Mount and browse Android internal storage
+Exec='/home/binaryraptor/.local/bin/phone-files'
+Icon=phone
+Type=Application
+Categories=Network;FileTransfer;
