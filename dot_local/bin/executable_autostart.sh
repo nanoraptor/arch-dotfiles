@@ -11,5 +11,6 @@ spotify &
 discord --start-minimized &
 thunderbird &
 google-chrome-stable --profile-directory="Default" --app="https://gemini.google.com/app" &
+kdeconnect-indicator
 
 keepassxc &

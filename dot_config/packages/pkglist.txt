@@ -55,6 +55,7 @@ hyprpolkitagent
 hyprshutdown
 hyprsunset
 imagemagick
+imv
 inotify-tools
 intel-media-driver
 intel-ucode
@@ -62,6 +63,7 @@ intel-undervolt
 jdk-openjdk
 jq
 kde-cli-tools
+kdeconnect
 kdegraphics-mobipocket
 keepassxc
 kitty
@@ -97,6 +99,7 @@ okular
 openresolv
 pacman-contrib
 pamixer
+papirus-icon-theme
 parallel
 pavucontrol
 pipewire
@@ -140,6 +143,7 @@ slurp
 smartmontools
 sof-firmware
 speech-dispatcher
+sshfs
 starship
 subversion
 sudo
@@ -154,6 +158,7 @@ tldr
 tlp
 tlp-rdw
 tmux
+tree
 ttf-jetbrains-mono-nerd
 tumbler
 udiskie

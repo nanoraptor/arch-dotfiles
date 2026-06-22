@@ -1,5 +1,7 @@
 arduino-ide-bin
+github-desktop-bin
 google-chrome
+hypr-kdeconnect-fix-git
 hyprquery-git
 jetbrains-toolbox
 libfprint-2-tod1-goodix
@@ -7,11 +9,13 @@ libfprint-tod
 libinput-gestures
 nautilus-admin-gtk4
 nautilus-open-any-terminal
+pinta
+qimgv
 snappy-switcher
 spotify
 superproductivity-bin
 vicinae-bin
 wlogout
 yay
-yay-debug
 zapzap
+zen-browser-bin

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Fetch the active device ID
+DEVICE_ID=$(kdeconnect-cli -a --id-only | head -n 1)
+
+if [ -z "$DEVICE_ID" ]; then
+    notify-send "KDE Connect" "No active device found."
+    exit 1
+fi
+
+# Ensure it is mounted
+kdeconnect-cli -d "$DEVICE_ID" --mount
+sleep 0.5
+
+# Open Nautilus directly into the Android internal storage
+nautilus "/run/user/1000/$DEVICE_ID/storage/emulated/0" &

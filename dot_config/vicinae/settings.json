@@ -16,7 +16,7 @@
    "pop_to_root_on_close": true,
    "keybinding": "default",
    "font": {
-      "rendering": "native",
+      "rendering": "qt",
       "normal": {
          "family": "Inter Variable",
          "size": 9
@@ -136,6 +136,9 @@
          "entrypoints": {
             "blueman-manager": {
                "enabled": false
+            },
+            "org.kde.kdeconnect.sms": {
+               "alias": "sms"
             },
             "superproductivity": {
                "alias": "sp"

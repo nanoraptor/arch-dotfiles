@@ -57,9 +57,8 @@ alias kee="cat /home/binaryraptor/Documents/Private/Other\ files/config.txt | wl
 # export EDITOR=nvim
 export EDITOR=nvim
 export VISUAL=nvim
-export JAVA_HOME="/usr/lib/jvm/java-25-openjdk"
+export JAVA_HOME="/usr/lib/jvm/java-26-openjdk"
 export PATH="$JAVA_HOME/bin:$PATH"
-export PATH=$PATH:/var/lib/snapd/snap/bin
 
 function vi-yank-wl-copy {
     zle vi-yank
