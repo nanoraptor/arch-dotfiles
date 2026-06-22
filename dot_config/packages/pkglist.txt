@@ -63,7 +63,6 @@ intel-undervolt
 jdk-openjdk
 jq
 kde-cli-tools
-kdeconnect
 kdegraphics-mobipocket
 keepassxc
 kitty
