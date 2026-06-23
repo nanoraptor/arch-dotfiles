@@ -222,6 +222,9 @@
             "Arch.pacman-installer.sh": {
                "alias": "pacman"
             },
+            "Hyprland.shaderforvicinae.sh": {
+               "alias": "shader"
+            },
             "Hyprland.workspacepreviewforvicinae.sh": {
                "alias": "ws"
             }

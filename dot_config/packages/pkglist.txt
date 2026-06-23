@@ -38,6 +38,7 @@ fzf
 git
 github-cli
 gnome-keyring
+gradle
 graphviz
 grim
 gst-libav
