@@ -1,0 +1,9 @@
+:root {
+    --zen-themed-toolbar-bg-transparent: transparent !important;
+}
+/* Keeps inactive UI transparent when focus shifts out */
+:root:-moz-window-inactive,
+#main-window:-moz-window-inactive {
+    background-color: transparent !important;
+    --zen-themed-toolbar-bg-transparent: transparent !important;
+}
