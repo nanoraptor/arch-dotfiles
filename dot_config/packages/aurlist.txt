@@ -1,7 +1,6 @@
 antigravity-cli
 arduino-ide-bin
 github-desktop-bin
-google-chrome
 hypr-kdeconnect-fix-git
 hyprquery-git
 jetbrains-toolbox

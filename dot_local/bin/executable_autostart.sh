@@ -10,7 +10,7 @@ sleep 2
 spotify &
 discord --start-minimized &
 thunderbird &
-google-chrome-stable --profile-directory="Default" --app="https://gemini.google.com/app" &
+firefoxpwa site launch 01KW5ZXG7VG360Z11W00D22ZCB
 kdeconnect-indicator
 
 keepassxc &
