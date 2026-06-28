@@ -33,6 +33,7 @@ fd
 ffmpegthumbnailer
 ffmpegthumbs
 firefox
+firefoxpwa
 flatpak
 fprintd
 fzf
