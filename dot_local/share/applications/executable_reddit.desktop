@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Reddit
-Exec=google-chrome-stable --profile-directory="Default" --app="https://www.reddit.com/"
-Icon=/home/binaryraptor/.local/share/icons/webapps/reddit.png
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

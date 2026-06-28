@@ -38,6 +38,9 @@ success "Package lists saved to ${BOLD}~/.config/packages/"
 log "Running chezmoi status..."
 chezmoi status
 
+log "Source files are being overriden"
+firefoxpwa site launch 01KW5ZXG7VG360Z11W00D22ZCB
+
 log "Updating chezmoi state..."
 chezmoi re-add
 

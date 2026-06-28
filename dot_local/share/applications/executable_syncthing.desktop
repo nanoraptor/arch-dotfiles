@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Syncthing
-Exec=google-chrome-stable --profile-directory="Default" --app="http://127.0.0.1:8384/"
-Icon=/home/binaryraptor/.local/share/icons/webapps/Syncthing.svg
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

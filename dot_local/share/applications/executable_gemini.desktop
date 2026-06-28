@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Gemini
-Exec=google-chrome-stable --profile-directory="Default" --app="https://gemini.google.com/app"
-Icon=/home/binaryraptor/.local/share/icons/webapps/gemini.png
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

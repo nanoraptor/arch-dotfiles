@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=NotebookLM
-Exec=google-chrome-stable --profile-directory="Default" --app="https://notebooklm.google.com/"
-Icon=/home/binaryraptor/.local/share/icons/webapps/notebooklm.png
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

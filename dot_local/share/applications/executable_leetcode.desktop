@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=LeetCode
-Exec=google-chrome-stable --profile-directory="Default" --app="https://leetcode.com/problems"
-Icon=/home/binaryraptor/.local/share/icons/webapps/leetcode.png
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

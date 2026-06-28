@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Classroom
-Exec=google-chrome-stable --app="https://classroom.google.com/" --profile-directory="Profile 1"
-Icon=/home/binaryraptor/.local/share/icons/webapps/classroom.png
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

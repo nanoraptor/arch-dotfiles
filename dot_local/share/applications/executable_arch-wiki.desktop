@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Arch Wiki
-Exec=google-chrome-stable --profile-directory="Default" --app="https://wiki.archlinux.org/title/Main_page"
-Icon=/home/binaryraptor/.local/share/icons/webapps/arch-linux.svg
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

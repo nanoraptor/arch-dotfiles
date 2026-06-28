@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Minecraft Wiki
-Exec=google-chrome-stable --app="https://minecraft.wiki/"
-Icon=/home/binaryraptor/.local/share/icons/webapps/minecraft-wiki.png
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

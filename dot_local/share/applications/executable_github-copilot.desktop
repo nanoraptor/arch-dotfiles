@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Github Copilot
-Exec=google-chrome-stable --app="https://github.com/copilot"
-Icon=/home/binaryraptor/.local/share/icons/webapps/GitHub Copilot-dark.svg
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer

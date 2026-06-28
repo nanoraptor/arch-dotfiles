@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Hyprland Wiki
-Exec=google-chrome-stable --profile-directory="Default" --app="https://wiki.hypr.land/"
-Icon=/home/binaryraptor/.local/share/icons/webapps/hyprland.svg
-Terminal=false
-Categories=Network;WebBrowser;
-# created-by: Webapp Installer
