@@ -39,7 +39,7 @@ log "Running chezmoi status..."
 chezmoi status
 
 log "Source files are being overriden"
-firefoxpwa site launch 01KW5ZXG7VG360Z11W00D22ZCB
+chezmoi status | sed -n 's/^DA //p' | while read -r file; do chezmoi forget --force "$file"; done
 
 log "Updating chezmoi state..."
 chezmoi re-add
