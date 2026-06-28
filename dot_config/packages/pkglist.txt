@@ -2,6 +2,7 @@ anki
 arduino-cli
 ark
 awww
+baobab
 base
 base-devel
 bat

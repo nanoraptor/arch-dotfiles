@@ -1,3 +1,4 @@
+antigravity-cli
 arduino-ide-bin
 github-desktop-bin
 google-chrome
