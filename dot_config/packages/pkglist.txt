@@ -161,6 +161,7 @@ tlp-rdw
 tmux
 tree
 ttf-jetbrains-mono-nerd
+ttf-meslo-nerd
 tumbler
 udiskie
 ufw

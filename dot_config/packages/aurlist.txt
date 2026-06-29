@@ -10,6 +10,7 @@ libfprint-tod
 libinput-gestures
 nautilus-admin-gtk4
 nautilus-open-any-terminal
+nerd-fonts-sf-mono
 pinta
 qimgv
 snappy-switcher
