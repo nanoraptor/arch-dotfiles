@@ -1,6 +1,7 @@
 antigravity-cli
 arduino-ide-bin
 github-desktop-bin
+helium-browser-bin
 hypr-kdeconnect-fix-git
 hyprquery-git
 jetbrains-toolbox
@@ -17,6 +18,7 @@ superproductivity-bin
 valent
 vicinae-bin
 wlogout
+wvkbd-deskintl
 yay
 zapzap
 zen-browser-bin
