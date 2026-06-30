@@ -18,6 +18,7 @@ spotify
 superproductivity-bin
 valent
 vicinae-bin
+wayland-pipewire-idle-inhibit
 wlogout
 wvkbd-deskintl
 yay

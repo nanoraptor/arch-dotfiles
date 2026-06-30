@@ -63,6 +63,7 @@ intel-media-driver
 intel-ucode
 intel-undervolt
 jdk-openjdk
+jp2a
 jq
 kde-cli-tools
 kdegraphics-mobipocket
