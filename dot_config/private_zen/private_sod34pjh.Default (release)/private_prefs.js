@@ -177,7 +177,7 @@ user_pref("identity.fxaccounts.account.telemetry.sanitized_uid", "f69706e1e603ae
 user_pref("identity.fxaccounts.commands.missed.last_fetch", 1782770867);
 user_pref("identity.fxaccounts.lastSignedInUserIdHash", "JiET7T4tWdN8hCmaoxCOzVKY7zoMNsWJRlPQtsLhD7c=");
 user_pref("identity.fxaccounts.toolbar.accessed", true);
-user_pref("idle.lastDailyNotification", 1782769119);
+user_pref("idle.lastDailyNotification", 1782855544);
 user_pref("media.gmp-gmpopenh264.abi", "x86_64-gcc3");
 user_pref("media.gmp-gmpopenh264.hashValue", "f5246bf14d038adf4ce0c4360262ab722bc3de4220f047c3d542b4c564074b4877dc8659e3125c5171c749e7ce93f20cc63777eb5e1539e960670cbc5f30ac85");
 user_pref("media.gmp-gmpopenh264.lastDownload", 1782043303);
@@ -258,7 +258,7 @@ user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.globalprivacycontrol.was_ever_enabled", true);
 user_pref("privacy.purge_trackers.date_in_cookie_database", "0");
-user_pref("privacy.purge_trackers.last_purge", "1782769119386");
+user_pref("privacy.purge_trackers.last_purge", "1782855544155");
 user_pref("privacy.sanitize.clearOnShutdown.hasMigratedToNewPrefs3", true);
 user_pref("privacy.sanitize.cpd.hasMigratedToNewPrefs3", true);
 user_pref("privacy.sanitize.pending", "[{\"id\":\"newtab-container\",\"itemsToClear\":[],\"options\":{}}]");
