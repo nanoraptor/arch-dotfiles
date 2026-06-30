@@ -189,6 +189,7 @@ xorg-xrdb
 xsettingsd
 yazi
 yt-dlp
+zed
 zip
 zoxide
 zsh

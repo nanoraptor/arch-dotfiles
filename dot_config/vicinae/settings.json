@@ -227,6 +227,9 @@
             },
             "Hyprland.workspacepreviewforvicinae.sh": {
                "alias": "ws"
+            },
+            "Utilities.osk-toggle.sh": {
+               "alias": "osk"
             }
          }
       },
