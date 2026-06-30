@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=GitHub Copilot
+Exec="/usr/bin/github"
+NoDisplay=true
+Icon=/usr/lib/GitHub Copilot/icons/128x128.png

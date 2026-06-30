@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=ChatGPT
+Comment=ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.
+Keywords=;
+Categories=GTK;;
+Icon=/home/binaryraptor/.local/share/icons/webapps/openai.png
+Exec=/usr/bin/firefoxpwa site launch 01KWBBT1W0FT6VB39Z38KCPQHV --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KWBBT1W0FT6VB39Z38KCPQHV

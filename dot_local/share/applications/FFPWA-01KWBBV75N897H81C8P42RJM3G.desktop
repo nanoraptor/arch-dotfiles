@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Perplexity
+Comment=Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.
+Keywords=;
+Categories=GTK;;
+Icon=FFPWA-01KWBBV75N897H81C8P42RJM3G
+Exec=/usr/bin/firefoxpwa site launch 01KWBBV75N897H81C8P42RJM3G --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KWBBV75N897H81C8P42RJM3G

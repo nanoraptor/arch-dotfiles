@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Syncthing
+Comment=
+Keywords=;
+Categories=GTK;;
+Icon=FFPWA-01KWASVKN5EGYYC04GMQD8ZPGN
+Exec=/usr/bin/firefoxpwa site launch 01KWASVKN5EGYYC04GMQD8ZPGN --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KWASVKN5EGYYC04GMQD8ZPGN
