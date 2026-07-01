@@ -7,3 +7,82 @@
     background-color: transparent !important;
     --zen-themed-toolbar-bg-transparent: transparent !important;
 }
+
+/* Centering Workspace icon */
+/* 1. Shift the main workspace wrapper container up to align the emoji */
+.zen-current-workspace-indicator-icon {
+    position: relative !important;
+    top: -2px !important; 
+}
+
+/* 2. Push standard image/SVG icons back down to keep them perfectly centered */
+.zen-current-workspace-indicator-icon image,
+.zen-current-workspace-indicator-icon svg,
+.zen-current-workspace-indicator-icon img {
+    position: relative !important;
+    top: 2px !important;
+}
+
+/* Centering Everything */
+/* /* 1. Override internal vbox stacking and force a centered flex row */ */
+/* vbox.zen-workspace-tabs-section.zen-current-workspace-indicator { */
+/*     display: flex !important; */
+/*     flex-direction: row !important; */
+/*     justify-content: center !important; */
+/*     align-items: center !important; */
+/*     position: relative !important; */
+/*     padding: 0 !important; */
+/* } */
+/**/
+/* /* 2. Strip absolute positioning and auto-expanding flex properties */ */
+/* .zen-current-workspace-indicator-icon, */
+/* .zen-current-workspace-indicator-name { */
+/*     position: static !important; */
+/*     flex: 0 0 auto !important;  */
+/*     width: auto !important; */
+/*     margin: 0 !important; */
+/*     padding: 0 !important; */
+/*     display: flex !important; */
+/*     align-items: center !important; */
+/*     min-width: max-content !important;  */
+/*     transform: translateX(-9px) !important; /* Adjust -12px to shift more or less */ */
+/* } */
+/**/
+/* /* 3. Set precise spacing between the icon and text */ */
+/* .zen-current-workspace-indicator-icon { */
+/*     margin-right: 0px !important; */
+/*     transition: opacity 0.1s ease !important; */
+/* } */
+/**/
+/* /* 4. Pin ONLY the '...' options menu to the right edge */ */
+/* .zen-current-workspace-indicator-name ~ *:not(.zen-current-workspace-indicator-chevron) { */
+/*     position: absolute !important; */
+/*     right: 12px !important; */
+/*     margin: 0 !important; */
+/* } */
+/**/
+/* /* 5. Pin the Arrow (chevron) to the left of the emoji */ */
+/* .zen-current-workspace-indicator-chevron { */
+/*     position: absolute !important; */
+/*     left: -9px !important; /* adjust this value to shift the arrow further left or right */ */
+/*     right: auto !important; */
+/*     margin: 0 !important; */
+/* } */
+/* /* 6. Hide the emoji when hovering (which is when the arrow appears) */ */
+/* .zen-current-workspace-indicator:hover .zen-current-workspace-indicator-icon, */
+/* .zen-current-workspace-indicator:hover::before { */
+/*     opacity: 0 !important; */
+/* } */
+/**/
+
+/* Removing workspace icon */
+/* /* Remove the emoji icon when it is set via the icon attribute */ */
+/* .zen-current-workspace-indicator[icon]::before { */
+/*     display: none !important; */
+/*     content: none !important; */
+/* } */
+/**/
+/* /* Also hide standard theme icons if you toggle back to them */ */
+/* .zen-current-workspace-indicator-icon { */
+/*     display: none !important; */
+/* } */
