@@ -32,6 +32,7 @@ fastfetch
 fd
 ffmpegthumbnailer
 ffmpegthumbs
+firefox-tridactyl
 firefoxpwa
 flatpak
 fprintd
