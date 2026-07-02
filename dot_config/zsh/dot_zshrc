@@ -34,7 +34,7 @@ alias fastfetch='fastfetch --logo-type kitty'
 # Add your configurations here
 # alias vim=nvim
 alias cat=bat
-# alias copilot='gh copilot -i ""'
+alias copilot='gh copilot'
 # eza aliases
 alias ls='eza --color=always --group-directories-first --icons=always' # Preferred 'ls' implementation
 alias la='eza -a --color=always --group-directories-first --icons=always'  # All files and dirs
