@@ -73,6 +73,7 @@ kitty
 kvantum
 kvantum-qt5
 lazygit
+lib32-vulkan-intel
 libgsf
 libnotify
 linux
@@ -99,6 +100,7 @@ nwg-look
 obs-studio
 obsidian
 okular
+opendoas
 openresolv
 pacman-contrib
 pamixer
@@ -173,6 +175,7 @@ uwsm
 vim
 vlc
 vlc-plugins-all
+vulkan-intel
 waybar
 webkit2gtk-4.1
 websocat

@@ -94,13 +94,6 @@
             }
          }
       },
-      "@rithvikvibhu/store.vicinae.arch-packages": {
-         "entrypoints": {
-            "search-arch-packages": {
-               "alias": "pm"
-            }
-         }
-      },
       "@sovereign/store.vicinae.pacman-updates": {
          "entrypoints": {
             "check-pacman": {
@@ -230,6 +223,16 @@
             },
             "Utilities.osk-toggle.sh": {
                "alias": "osk"
+            }
+         }
+      },
+      "snippets": {
+         "entrypoints": {
+            "create": {
+               "alias": "csnip"
+            },
+            "manage": {
+               "alias": "snip"
             }
          }
       },

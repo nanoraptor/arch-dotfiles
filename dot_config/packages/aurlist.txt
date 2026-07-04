@@ -13,8 +13,10 @@ nautilus-open-any-terminal
 nerd-fonts-sf-mono
 pinta
 qimgv
+sioyek
 snappy-switcher
 spotify
+stirling-pdf-desktop
 superproductivity-bin
 valent
 vicinae-bin
