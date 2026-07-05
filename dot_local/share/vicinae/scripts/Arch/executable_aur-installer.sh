@@ -1,7 +1,7 @@
 #!/bin/bash
 # @vicinae.schemaVersion 1
 # @vicinae.title Install AUR Package
-# @vicinae.keywords ["aur", "packages", "install"]
+# @vicinae.keywords ["aur", "packages", "install", "yay"]
 # @vicinae.mode silent
 # @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/arch.png
 
