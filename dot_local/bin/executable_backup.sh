@@ -35,6 +35,15 @@ pacman -Qqen >"$PKG_LIST"
 flatpak list --app --columns=application >"$FLATPAK_LIST"
 success "Package lists saved to ${BOLD}~/.config/packages/"
 
+## for zen-browser
+PROFILE_DIR="$HOME/.zen/lkjgcjjx.Default (release)-1"
+
+# Extract extensions commands, zen shortcuts, and UI state
+grep -iE 'user_pref\("(extensions\.webextensions\.commands|zen\..*key|zen\..*shortcut|browser\.uiCustomization)' "$PROFILE_DIR/prefs.js" >>"$PROFILE_DIR/user.js"
+
+# Remove duplicate lines (keeps your user.js clean if run multiple times)
+awk '!seen[$0]++' "$PROFILE_DIR/user.js" >"$PROFILE_DIR/user.js.tmp" && mv "$PROFILE_DIR/user.js.tmp" "$PROFILE_DIR/user.js"
+
 log "Running chezmoi status..."
 chezmoi status
 
