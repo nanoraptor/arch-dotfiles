@@ -13,5 +13,5 @@ thunderbird &
 firefoxpwa site launch 01KW5ZXG7VG360Z11W00D22ZCB
 kdeconnect-indicator
 
-zapzap --hideStart
+zapzap &
 keepassxc &
