@@ -37,6 +37,9 @@
          "enabled": true
       }
    },
+   "keybinds": {
+      "toggle-action-panel": "control+B"
+   },
    "favorites": [],
    "fallbacks": [
       "@dagimg-dot/store.vicinae.wifi-commander:scan-wifi"
@@ -139,7 +142,7 @@
          }
       },
       "browser-extension": {
-         "enabled": false,
+         "enabled": true,
          "entrypoints": {
             "shortcut-active-tab": {
                "enabled": false
