@@ -42,9 +42,8 @@ log "Running chezmoi status..."
 chezmoi status
 
 log "Source files are being overriden"
-chezmoi status | sed -n 's/^DA //p' | sort -rn | while read -r file; do
-  chezmoi forget --force "$file"
-done
+chezmoi status | sed -n 's/^DA //p' | while read -r file; do chezmoi forget --force "$file"; done
+
 log "Updating chezmoi state..."
 chezmoi re-add
 
