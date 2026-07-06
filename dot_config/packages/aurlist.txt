@@ -14,7 +14,7 @@ nautilus-open-any-terminal
 nerd-fonts-sf-mono
 pinta
 qimgv
-sioyek-dev
+sioyek-git
 snappy-switcher
 spotify
 stirling-pdf-desktop
