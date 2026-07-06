@@ -42,8 +42,8 @@ log "Running chezmoi status..."
 chezmoi status
 
 log "Source files are being overriden"
-chezmoi managed | grep -E 'sioyek|stirling' | while read -r file; do
-  chezmoi forget "${file#$HOME/}"
+chezmoi status | sed -n 's/^DA //p' | sort -rn | while read -r file; do
+  chezmoi forget --force "$file"
 done
 log "Updating chezmoi state..."
 chezmoi re-add
