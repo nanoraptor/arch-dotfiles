@@ -8,6 +8,7 @@ jetbrains-toolbox
 libfprint-2-tod1-goodix
 libfprint-tod
 libinput-gestures
+localsend
 nautilus-admin-gtk4
 nautilus-open-any-terminal
 nerd-fonts-sf-mono
