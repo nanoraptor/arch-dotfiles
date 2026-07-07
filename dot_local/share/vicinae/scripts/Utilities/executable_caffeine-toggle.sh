@@ -4,7 +4,7 @@
 # @vicinae.keywords ["caffeine", "idle", "inhibit", "toggle"]
 # @vicinae.description toggles the caffeine mode - prevents screen from going off
 # @vicinae.mode silent
-# @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/on-screen-keyboard.png
+# @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/caffeine.png
 #!/usr/bin/env bash
 
 # Trigger the existing script to handle the toggle and Waybar UI update

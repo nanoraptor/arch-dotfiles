@@ -63,6 +63,7 @@ inotify-tools
 intel-media-driver
 intel-ucode
 intel-undervolt
+inter-font
 jdk-openjdk
 jp2a
 jq

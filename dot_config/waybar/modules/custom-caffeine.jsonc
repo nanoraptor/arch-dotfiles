@@ -1,0 +1,15 @@
+{
+  "custom/caffeine": {
+    "exec": "~/.local/bin/caffeine.sh status",
+    "return-type": "json",
+    "interval": "once",
+    "signal": 8,
+    "on-click": "~/.local/bin/caffeine.sh toggle",
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "\udb80\udd76",
+      "deactivated": "\udb81\udeca"
+    },
+    "tooltip": true
+  }
+}

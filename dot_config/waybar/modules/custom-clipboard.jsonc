@@ -2,7 +2,14 @@
   "custom/clipboard": {
     "format": " ",
     "on-click": "vicinae vicinae://launch/clipboard/history",
-    "tooltip": false,
-    "tooltip-format": "Clipboard"
+    "tooltip": true,
+    "tooltip-format": "Clipboard",
+    "menu": "on-click-right",
+    "menu-file": "~/.config/waybar/modules/clipboard-menu.xml",
+    "menu-actions": {
+      "show_history": "vicinae vicinae://launch/clipboard/history",
+      "clear_current": "vicinae vicinae://launch/clipboard/clear",
+      "clear_history": "vicinae vicinae://launch/clipboard/clear-history"
+    }
   }
 }
