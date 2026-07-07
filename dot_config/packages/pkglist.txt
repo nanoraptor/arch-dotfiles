@@ -1,3 +1,4 @@
+adobe-source-serif-fonts
 anki
 arduino-cli
 ark
