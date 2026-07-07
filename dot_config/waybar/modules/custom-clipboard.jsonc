@@ -2,7 +2,7 @@
   "custom/clipboard": {
     "format": " ",
     "on-click": "vicinae vicinae://launch/clipboard/history",
-    "tooltip": true,
+    "tooltip": false,
     "tooltip-format": "Clipboard"
   }
 }

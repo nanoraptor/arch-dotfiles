@@ -40,7 +40,7 @@
       "custom/hyprsunset",
       "clock",
       "privacy",
-      "idle_inhibitor"
+      "custom/caffeine"
     ]
   },
   "modules-right": [
