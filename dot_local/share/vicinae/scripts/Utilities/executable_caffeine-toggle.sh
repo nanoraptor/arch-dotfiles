@@ -12,7 +12,7 @@
 
 # Check the PID file to determine and echo the new state
 if [[ -f "/tmp/waybar_caffeine.pid" ]]; then
-  echo "󰅶: caffeine mode on"
+  echo " 󰅶  caffeine-on "
 else
-  echo "󰛊: caffeine mode off"
+  echo " 󰛊  caffeine-off"
 fi

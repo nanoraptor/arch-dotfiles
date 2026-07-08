@@ -224,6 +224,9 @@
             "Hyprland.workspacepreviewforvicinae.sh": {
                "alias": "ws"
             },
+            "Utilities.caffeine-toggle.sh": {
+               "alias": "cf"
+            },
             "Utilities.osk-toggle.sh": {
                "alias": "osk"
             }
