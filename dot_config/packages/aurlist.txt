@@ -12,6 +12,7 @@ localsend
 nautilus-admin-gtk4
 nautilus-open-any-terminal
 nerd-fonts-sf-mono
+onlyoffice-bin
 pinta
 qimgv
 sioyek-git
