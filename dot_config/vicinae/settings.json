@@ -14,11 +14,12 @@
    "close_on_focus_loss": false,
    "consider_preedit": false,
    "pop_to_root_on_close": true,
+   "encrypt_sensitive_data": true,
    "keybinding": "default",
    "font": {
       "rendering": "qt",
       "normal": {
-         "family": "Inter Variable",
+         "family": "Inter",
          "size": 9
       }
    },
@@ -35,6 +36,9 @@
       "opacity": 0.9,
       "client_side_decorations": {
          "enabled": true
+      },
+      "compact_mode": {
+         "enabled": false
       }
    },
    "keybinds": {
@@ -144,8 +148,11 @@
       "browser-extension": {
          "enabled": true,
          "entrypoints": {
+            "browse-tabs": {
+               "alias": "tab"
+            },
             "shortcut-active-tab": {
-               "enabled": false
+               "enabled": true
             }
          }
       },
@@ -165,13 +172,13 @@
       "core": {
          "entrypoints": {
             "about": {
-               "enabled": false
+               "enabled": true
             },
             "documentation": {
-               "enabled": false
+               "enabled": true
             },
             "inspect-local-storage": {
-               "enabled": false
+               "enabled": true
             },
             "oauth-token-store": {
                "enabled": true
@@ -219,13 +226,17 @@
                "alias": "pacman"
             },
             "Hyprland.shaderforvicinae.sh": {
-               "alias": "shader"
+               "alias": "shd"
+            },
+            "Hyprland.workflowsforvicinae.sh": {
+               "alias": "wfl"
             },
             "Hyprland.workspacepreviewforvicinae.sh": {
                "alias": "ws"
             },
             "Utilities.caffeine-toggle.sh": {
-               "alias": "cf"
+               "alias": "cf",
+               "enabled": true
             },
             "Utilities.osk-toggle.sh": {
                "alias": "osk"
@@ -233,6 +244,13 @@
          }
       },
       "snippets": {
+         "preferences": {
+            "enabled": true,
+            "keyDelay": "15 ",
+            "layout": "",
+            "prePasteDelay": "5",
+            "undo": false
+         },
          "entrypoints": {
             "create": {
                "alias": "csnip"

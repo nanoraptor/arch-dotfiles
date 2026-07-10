@@ -2,6 +2,7 @@
     "include": [
         "/home/binaryraptor/.config/waybar/modules/custom-caffeine.jsonc",
         "/home/binaryraptor/.config/waybar/modules/custom-spotify.jsonc",
+        "/home/binaryraptor/.config/waybar/modules/custom-voxtype.jsonc",
         "/home/binaryraptor/.config/waybar/modules/wlr-taskbar.jsonc",
         "/home/binaryraptor/.config/waybar/modules/custom-swaync.jsonc",
         "/home/binaryraptor/.config/waybar/modules/custom-power.jsonc",

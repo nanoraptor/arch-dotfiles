@@ -21,5 +21,8 @@ icon_theme = "Tela-circle-grey"
 notifications = ''
 auth_dialogue = "/usr/lib/polkit-kde-authentication-agent-1"
 
+[weather]
+location = "Madurai"
+
 [wlogout] 
 style = 1

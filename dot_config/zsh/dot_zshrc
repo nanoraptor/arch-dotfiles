@@ -52,6 +52,8 @@ alias btw=fastfetch
 alias backup="bash /home/binaryraptor/.local/bin/backup.sh"
 alias restore="bash /home/binaryraptor/.local/bin/restore.sh"
 alias kee="cat /home/binaryraptor/Documents/Private/Other\ files/config.txt | wl-copy"
+alias kp="nvim ~/.config/hypr/keybindings.conf"
+alias up="nvim ~/.config/hypr/userprefs.conf"
 # alias nvim='nv-focus'
 
 # export EDITOR=nvim

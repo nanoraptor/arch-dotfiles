@@ -22,6 +22,7 @@ stirling-pdf-desktop
 superproductivity-bin
 valent
 vicinae-bin
+voxtype-bin
 wayland-idle-inhibitor-git
 wayland-pipewire-idle-inhibit
 wlogout

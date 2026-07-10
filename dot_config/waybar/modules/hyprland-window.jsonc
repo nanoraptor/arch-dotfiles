@@ -12,6 +12,7 @@
       "class<org.kde.dolphin>": "󰉋  $1",
       "class<Spotify>": "  $1",
       "class<discord>": "  $1",
+      "class<nvim-window>": " $1",
       "class<Steam>": "󰓓  $1",
       "class<github>": "  $1",
       "^$": ""

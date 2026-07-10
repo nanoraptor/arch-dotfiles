@@ -1,7 +1,7 @@
 {
   "privacy": {
     "icon-spacing": 5,
-    // "icon-size": 18, // Dynamically generated
+    "icon-size": 12, // Dynamically generated
     "transition-duration": 250,
     "modules": [
       {
@@ -18,11 +18,12 @@
       {
         "type": "audio-in",
         "name": "cava"
-      },
-      {
-        "type": "screenshare",
-        "name": "obs"
       }
+      // ,
+      // {
+      //   "type": "screenshare",
+      //   "name": "obs"
+      // }
     ]
   }
 }

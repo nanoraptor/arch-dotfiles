@@ -1,18 +1,25 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # @vicinae.schemaVersion 1
 # @vicinae.title Toggle Caffeine Mode
 # @vicinae.keywords ["caffeine", "idle", "inhibit", "toggle"]
 # @vicinae.description toggles the caffeine mode - prevents screen from going off
 # @vicinae.mode silent
 # @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/caffeine.png
-#!/usr/bin/env bash
+# @vicinae.argument1 { "type": "text", "placeholder": "action (e.g. status)", "optional": true }
 
-# Trigger the existing script to handle the toggle and Waybar UI update
+if [[ "$1" == "status" ]]; then
+  if [[ -f "/tmp/waybar_caffeine.pid" ]]; then
+    echo "caffiene-status:on"
+  else
+    echo "caffeine-status:off"
+  fi
+  exit 0
+fi
+
 ~/.local/bin/caffeine.sh toggle
 
-# Check the PID file to determine and echo the new state
 if [[ -f "/tmp/waybar_caffeine.pid" ]]; then
-  echo " 󰅶  caffeine-on "
+  echo " ☕  caffeine-on"
 else
-  echo " 󰛊  caffeine-off"
+  echo " 🫗  caffeine-off"
 fi
