@@ -1,7 +1,7 @@
 {
   "privacy": {
     "icon-spacing": 5,
-    "icon-size": 12, // Dynamically generated
+    "icon-size": 10, // Dynamically generated
     "transition-duration": 250,
     "modules": [
       {

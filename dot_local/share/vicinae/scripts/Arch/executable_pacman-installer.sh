@@ -5,6 +5,7 @@
 # @vicinae.mode silent
 # @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/arch.png
 
+vicinae toggle
 # Launch terminal in the background and detach it completely
 kitty --class floating_tui_installer -e ~/.local/bin/pacman-installer.sh &
 # Print message for Vicinae to display in its notification/output UI

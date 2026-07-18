@@ -19,7 +19,8 @@
     "orientation": "inherit",
     "modules": [
       "hyprland/workspaces",
-      "hyprland/window"
+      "hyprland/window",
+      "privacy"
     ]
   },
   "group/pill#left2": {
@@ -47,7 +48,6 @@
   "group/pill#right1": {
     "orientation": "inherit",
     "modules": [
-      "privacy",
       "tray"
     ]
   },

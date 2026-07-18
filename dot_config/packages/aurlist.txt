@@ -1,9 +1,11 @@
 antigravity-cli
 arduino-ide-bin
+flow-browser-bin
 github-desktop-bin
 helium-browser-bin
 hypr-kdeconnect-fix-git
 hyprquery-git
+ibus-m17n
 jetbrains-toolbox
 libfprint-2-tod1-goodix
 libfprint-tod
@@ -12,7 +14,9 @@ localsend
 nautilus-admin-gtk4
 nautilus-open-any-terminal
 nerd-fonts-sf-mono
+notion-app-electron
 onlyoffice-bin
+opentabletdriver
 pinta
 qimgv
 sioyek-git

@@ -20,6 +20,8 @@ icon_theme = "Tela-circle-grey"
 [hyprland-start]
 notifications = ''
 auth_dialogue = "/usr/lib/polkit-kde-authentication-agent-1"
+image_clipboard = ''  # Let vicinae handle this 
+text_clipboard = ''
 
 [weather]
 location = "Madurai"

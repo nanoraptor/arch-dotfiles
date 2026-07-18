@@ -23,11 +23,12 @@
     padding: 0 0px; /* Adjusts internal width/height */
     margin: 0 0px;   /* Adjusts external spacing */
     min-width: 0px; /* Forces a specific minimum width */
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 0px;
 }
 /* To target the individual indicators (mic, camera, screenshare) inside the module */
 #privacy-item {
-    padding: 0 1px; /* Adjusts spacing between multiple active indicators */
+    padding: 0 3px; /* Adjusts spacing between multiple active indicators */
 }
 #custom-power {
     padding-left: 10px;

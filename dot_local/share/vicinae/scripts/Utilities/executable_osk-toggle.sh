@@ -7,6 +7,7 @@
 # @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/on-screen-keyboard.png
 
 # Change to "wvkbd" if wvkbd-deskintl is not the actual binary name
+vicinae toggle
 BIN="wvkbd-deskintl"
 
 if pgrep -x "$BIN" >/dev/null; then

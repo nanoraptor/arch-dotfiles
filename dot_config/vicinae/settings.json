@@ -39,6 +39,9 @@
       },
       "compact_mode": {
          "enabled": false
+      },
+      "layer_shell": {
+         "enabled": true
       }
    },
    "keybinds": {
@@ -66,6 +69,13 @@
          "entrypoints": {
             "devices": {
                "alias": "bt"
+            }
+         }
+      },
+      "@Visual-Studio-Coder/store.raycast.url-shortener": {
+         "entrypoints": {
+            "shorten-url": {
+               "alias": "url"
             }
          }
       },
@@ -105,20 +115,6 @@
          "entrypoints": {
             "check-pacman": {
                "alias": "up"
-            }
-         }
-      },
-      "@system7/store.vicinae.keepassxc": {
-         "enabled": true,
-         "preferences": {
-            "database": "/home/binaryraptor/Documents/Keepass/Passwords.kdbx",
-            "lockAfterInactivity": "2",
-            "userInterfaceFavicon": true
-         },
-         "entrypoints": {
-            "search": {
-               "alias": "kp",
-               "enabled": true
             }
          }
       },
@@ -234,6 +230,9 @@
             "Hyprland.workspacepreviewforvicinae.sh": {
                "alias": "ws"
             },
+            "Utilities.caffeine-status.sh": {
+               "alias": "cfs"
+            },
             "Utilities.caffeine-toggle.sh": {
                "alias": "cf",
                "enabled": true
@@ -247,7 +246,7 @@
          "preferences": {
             "enabled": true,
             "keyDelay": "15 ",
-            "layout": "",
+            "layout": "us",
             "prePasteDelay": "5",
             "undo": false
          },

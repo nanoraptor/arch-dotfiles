@@ -6,4 +6,6 @@
 # @vicinae.mode silent
 # @vicinae.icon /home/binaryraptor/.local/share/vicinae/scripts/icons/color-picker.png
 
-hyprpicker -an
+vicinae toggle
+hyprpicker -a
+exit 0
